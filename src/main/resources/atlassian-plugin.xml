@@ -1,0 +1,15 @@
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.artifactId}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+    </plugin-info>
+
+    <servlet name="cctray" class="com.atlassian.mike.ExampleServlet" key="test">
+        <url-pattern>/test</url-pattern>
+    </servlet>
+
+	<rest key="cctrayRest" path="/cctray" version="1.0">
+		<description>Provides CCTray services.</description>
+	</rest>
+</atlassian-plugin>

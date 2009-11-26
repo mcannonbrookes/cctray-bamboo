@@ -1,0 +1,1 @@
+Uh - yeah - email me mike@atlassian.com, or ask in the Bamboo forums.
